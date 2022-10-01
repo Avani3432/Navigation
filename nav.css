@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('https://picsum.photos/536/354');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one, .second, .three
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start; 
+    margin:30px;
+}
+.one li{
+    padding:10px;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+}
+.one li a{
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.one li:hover{
+   border-radius: 20px 0 20px 0;
+   background: black;
+   color:white;
+}
+.second li{
+    padding:10px;
+    background-color: rgb(48, 155, 119);
+    text-decoration: none;
+}
+.second li a{
+    color:rgb(77, 70, 70);
+    text-decoration: none;
+}
+.second li:hover{
+     color:aqua;
+     font-weight: bold;
+     background-color: aquamarine;
+}
+.three li{
+    padding:10px;
+    background-color:rgb(78, 95, 122);
+    font-weight: bold;
+}
+.three li a{
+    color:brown;
+    text-decoration: none;
+       
+}
+.three li:hover{
+    background-color: beige;
+    border-top: 7px solid brown;
+    border-bottom: 7px solid brown;
+}
